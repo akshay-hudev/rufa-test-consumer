@@ -1,0 +1,17 @@
+{
+  "name": "rufa-test-consumer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Throwaway consumer for validating cross-repository SCIP resolution",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "rufa-test-lib": "file:../rufa-test-lib"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  }
+}
