@@ -8,7 +8,7 @@
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "rufa-test-lib": "file:vendor/rufa-test-lib-1.0.0.tgz"
+    "rufa-test-lib": "github:akshay-hudev/rufa-test-lib#main"
   },
   "devDependencies": {
     "ts-node": "10.9.2",
